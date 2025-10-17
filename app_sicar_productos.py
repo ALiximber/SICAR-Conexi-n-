@@ -1,14 +1,3 @@
-"""
-App Sicar Productos 2sql — Excel ⇄ MySQL (estandarizada)
-
-Cambios clave para portabilidad:
-- Sin rutas ni credenciales hardcodeadas. Lee .env o variables de entorno.
-- Carpeta de datos por defecto: ~/Documents/SicarData (editable desde la UI).
-- Dependencias fijadas en requirements.txt.
-- Modo "2 sentencias" garantizado en SUBIDA: 1) SELECT catálogo de unidades, 2) UPDATE masivo.
-- Compatibilidad Windows / macOS / Linux.
-"""
-
 import sys
 import os
 import re
